@@ -14,4 +14,6 @@ console.log (containerUl);
 
 let i = 0;
 
-// while ()
+while (i < list) {
+    
+}
