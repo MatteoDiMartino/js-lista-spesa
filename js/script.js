@@ -7,9 +7,16 @@ const list = [
     'Piatti pronti'
 ];
 
-console.log (list);
+let containerLi = document.querySelector('#listContainer');
+console.log (containerLi);
 
 for (let i = 0; i < list.length; i++) {
     let elementList = list[i];
-    console.log (elementList);
+
+    let liItem = document.createElement('li');
+
+    liItem.innerHTML = elementList;
+    console.log (liItem);
+
+    containerLi.append(liItem);
 }
