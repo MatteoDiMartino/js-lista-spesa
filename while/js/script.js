@@ -14,6 +14,11 @@ console.log (containerUl);
 
 let i = 0;
 
-while (i < list) {
-    
+while (i < list.length) {
+    let liItem = document.createElement('li');
+
+    let iItem = list [i];
+    console.log (iItem);
+
+    i++
 }
